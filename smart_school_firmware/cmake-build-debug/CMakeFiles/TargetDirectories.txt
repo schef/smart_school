@@ -1,0 +1,4 @@
+/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles/mbed-cli-build.dir
+/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles/smart_school_firmware.dir
