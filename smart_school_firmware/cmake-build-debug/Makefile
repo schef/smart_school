@@ -156,249 +156,6 @@ smart_school_firmware/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/build
 .PHONY : smart_school_firmware/fast
 
-MQTT/MQTTPacket/MQTTConnectClient.obj: MQTT/MQTTPacket/MQTTConnectClient.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTConnectClient.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTConnectClient.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTConnectClient.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTConnectClient.c.obj
-
-MQTT/MQTTPacket/MQTTConnectClient.i: MQTT/MQTTPacket/MQTTConnectClient.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTConnectClient.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTConnectClient.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTConnectClient.c.i
-.PHONY : MQTT/MQTTPacket/MQTTConnectClient.c.i
-
-MQTT/MQTTPacket/MQTTConnectClient.s: MQTT/MQTTPacket/MQTTConnectClient.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTConnectClient.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTConnectClient.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTConnectClient.c.s
-.PHONY : MQTT/MQTTPacket/MQTTConnectClient.c.s
-
-MQTT/MQTTPacket/MQTTConnectServer.obj: MQTT/MQTTPacket/MQTTConnectServer.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTConnectServer.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTConnectServer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTConnectServer.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTConnectServer.c.obj
-
-MQTT/MQTTPacket/MQTTConnectServer.i: MQTT/MQTTPacket/MQTTConnectServer.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTConnectServer.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTConnectServer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTConnectServer.c.i
-.PHONY : MQTT/MQTTPacket/MQTTConnectServer.c.i
-
-MQTT/MQTTPacket/MQTTConnectServer.s: MQTT/MQTTPacket/MQTTConnectServer.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTConnectServer.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTConnectServer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTConnectServer.c.s
-.PHONY : MQTT/MQTTPacket/MQTTConnectServer.c.s
-
-MQTT/MQTTPacket/MQTTDeserializePublish.obj: MQTT/MQTTPacket/MQTTDeserializePublish.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTDeserializePublish.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTDeserializePublish.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTDeserializePublish.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTDeserializePublish.c.obj
-
-MQTT/MQTTPacket/MQTTDeserializePublish.i: MQTT/MQTTPacket/MQTTDeserializePublish.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTDeserializePublish.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTDeserializePublish.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTDeserializePublish.c.i
-.PHONY : MQTT/MQTTPacket/MQTTDeserializePublish.c.i
-
-MQTT/MQTTPacket/MQTTDeserializePublish.s: MQTT/MQTTPacket/MQTTDeserializePublish.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTDeserializePublish.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTDeserializePublish.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTDeserializePublish.c.s
-.PHONY : MQTT/MQTTPacket/MQTTDeserializePublish.c.s
-
-MQTT/MQTTPacket/MQTTPacket.obj: MQTT/MQTTPacket/MQTTPacket.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTPacket.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTPacket.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTPacket.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTPacket.c.obj
-
-MQTT/MQTTPacket/MQTTPacket.i: MQTT/MQTTPacket/MQTTPacket.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTPacket.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTPacket.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTPacket.c.i
-.PHONY : MQTT/MQTTPacket/MQTTPacket.c.i
-
-MQTT/MQTTPacket/MQTTPacket.s: MQTT/MQTTPacket/MQTTPacket.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTPacket.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTPacket.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTPacket.c.s
-.PHONY : MQTT/MQTTPacket/MQTTPacket.c.s
-
-MQTT/MQTTPacket/MQTTSerializePublish.obj: MQTT/MQTTPacket/MQTTSerializePublish.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTSerializePublish.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTSerializePublish.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSerializePublish.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTSerializePublish.c.obj
-
-MQTT/MQTTPacket/MQTTSerializePublish.i: MQTT/MQTTPacket/MQTTSerializePublish.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTSerializePublish.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTSerializePublish.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSerializePublish.c.i
-.PHONY : MQTT/MQTTPacket/MQTTSerializePublish.c.i
-
-MQTT/MQTTPacket/MQTTSerializePublish.s: MQTT/MQTTPacket/MQTTSerializePublish.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTSerializePublish.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTSerializePublish.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSerializePublish.c.s
-.PHONY : MQTT/MQTTPacket/MQTTSerializePublish.c.s
-
-MQTT/MQTTPacket/MQTTSubscribeClient.obj: MQTT/MQTTPacket/MQTTSubscribeClient.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeClient.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTSubscribeClient.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSubscribeClient.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeClient.c.obj
-
-MQTT/MQTTPacket/MQTTSubscribeClient.i: MQTT/MQTTPacket/MQTTSubscribeClient.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeClient.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTSubscribeClient.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSubscribeClient.c.i
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeClient.c.i
-
-MQTT/MQTTPacket/MQTTSubscribeClient.s: MQTT/MQTTPacket/MQTTSubscribeClient.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeClient.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTSubscribeClient.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSubscribeClient.c.s
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeClient.c.s
-
-MQTT/MQTTPacket/MQTTSubscribeServer.obj: MQTT/MQTTPacket/MQTTSubscribeServer.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeServer.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTSubscribeServer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSubscribeServer.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeServer.c.obj
-
-MQTT/MQTTPacket/MQTTSubscribeServer.i: MQTT/MQTTPacket/MQTTSubscribeServer.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeServer.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTSubscribeServer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSubscribeServer.c.i
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeServer.c.i
-
-MQTT/MQTTPacket/MQTTSubscribeServer.s: MQTT/MQTTPacket/MQTTSubscribeServer.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeServer.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTSubscribeServer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTSubscribeServer.c.s
-.PHONY : MQTT/MQTTPacket/MQTTSubscribeServer.c.s
-
-MQTT/MQTTPacket/MQTTUnsubscribeClient.obj: MQTT/MQTTPacket/MQTTUnsubscribeClient.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeClient.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTUnsubscribeClient.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTUnsubscribeClient.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeClient.c.obj
-
-MQTT/MQTTPacket/MQTTUnsubscribeClient.i: MQTT/MQTTPacket/MQTTUnsubscribeClient.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeClient.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTUnsubscribeClient.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTUnsubscribeClient.c.i
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeClient.c.i
-
-MQTT/MQTTPacket/MQTTUnsubscribeClient.s: MQTT/MQTTPacket/MQTTUnsubscribeClient.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeClient.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTUnsubscribeClient.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTUnsubscribeClient.c.s
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeClient.c.s
-
-MQTT/MQTTPacket/MQTTUnsubscribeServer.obj: MQTT/MQTTPacket/MQTTUnsubscribeServer.c.obj
-
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeServer.obj
-
-# target to build an object file
-MQTT/MQTTPacket/MQTTUnsubscribeServer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTUnsubscribeServer.c.obj
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeServer.c.obj
-
-MQTT/MQTTPacket/MQTTUnsubscribeServer.i: MQTT/MQTTPacket/MQTTUnsubscribeServer.c.i
-
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeServer.i
-
-# target to preprocess a source file
-MQTT/MQTTPacket/MQTTUnsubscribeServer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTUnsubscribeServer.c.i
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeServer.c.i
-
-MQTT/MQTTPacket/MQTTUnsubscribeServer.s: MQTT/MQTTPacket/MQTTUnsubscribeServer.c.s
-
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeServer.s
-
-# target to generate assembly for a file
-MQTT/MQTTPacket/MQTTUnsubscribeServer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/MQTT/MQTTPacket/MQTTUnsubscribeServer.c.s
-.PHONY : MQTT/MQTTPacket/MQTTUnsubscribeServer.c.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -25455,6 +25212,897 @@ mbed-os/targets/TARGET_STM/watchdog_api.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/watchdog_api.c.s
 .PHONY : mbed-os/targets/TARGET_STM/watchdog_api.c.s
 
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.obj: submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.i: submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.s: submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.obj: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.i: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.s: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.obj: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.i: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.s: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.obj: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.i: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.s: submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.obj: submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.i: submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.s: submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s
+
+submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.obj: submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj
+
+submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.i: submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i
+
+submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.s: submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.i: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.s: submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.i: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.s: submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.obj: submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.obj
+
+# target to build an object file
+submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.i: submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.i
+
+# target to preprocess a source file
+submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i
+
+submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.s: submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s
+
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.s
+
+# target to generate assembly for a file
+submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_school_firmware.dir/build.make CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s
+.PHONY : submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -25465,33 +26113,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... mbed-cli-build"
 	@echo "... smart_school_firmware"
-	@echo "... MQTT/MQTTPacket/MQTTConnectClient.obj"
-	@echo "... MQTT/MQTTPacket/MQTTConnectClient.i"
-	@echo "... MQTT/MQTTPacket/MQTTConnectClient.s"
-	@echo "... MQTT/MQTTPacket/MQTTConnectServer.obj"
-	@echo "... MQTT/MQTTPacket/MQTTConnectServer.i"
-	@echo "... MQTT/MQTTPacket/MQTTConnectServer.s"
-	@echo "... MQTT/MQTTPacket/MQTTDeserializePublish.obj"
-	@echo "... MQTT/MQTTPacket/MQTTDeserializePublish.i"
-	@echo "... MQTT/MQTTPacket/MQTTDeserializePublish.s"
-	@echo "... MQTT/MQTTPacket/MQTTPacket.obj"
-	@echo "... MQTT/MQTTPacket/MQTTPacket.i"
-	@echo "... MQTT/MQTTPacket/MQTTPacket.s"
-	@echo "... MQTT/MQTTPacket/MQTTSerializePublish.obj"
-	@echo "... MQTT/MQTTPacket/MQTTSerializePublish.i"
-	@echo "... MQTT/MQTTPacket/MQTTSerializePublish.s"
-	@echo "... MQTT/MQTTPacket/MQTTSubscribeClient.obj"
-	@echo "... MQTT/MQTTPacket/MQTTSubscribeClient.i"
-	@echo "... MQTT/MQTTPacket/MQTTSubscribeClient.s"
-	@echo "... MQTT/MQTTPacket/MQTTSubscribeServer.obj"
-	@echo "... MQTT/MQTTPacket/MQTTSubscribeServer.i"
-	@echo "... MQTT/MQTTPacket/MQTTSubscribeServer.s"
-	@echo "... MQTT/MQTTPacket/MQTTUnsubscribeClient.obj"
-	@echo "... MQTT/MQTTPacket/MQTTUnsubscribeClient.i"
-	@echo "... MQTT/MQTTPacket/MQTTUnsubscribeClient.s"
-	@echo "... MQTT/MQTTPacket/MQTTUnsubscribeServer.obj"
-	@echo "... MQTT/MQTTPacket/MQTTUnsubscribeServer.i"
-	@echo "... MQTT/MQTTPacket/MQTTUnsubscribeServer.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -28276,6 +28897,105 @@ help:
 	@echo "... mbed-os/targets/TARGET_STM/watchdog_api.obj"
 	@echo "... mbed-os/targets/TARGET_STM/watchdog_api.i"
 	@echo "... mbed-os/targets/TARGET_STM/watchdog_api.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.s"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.obj"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.i"
+	@echo "... submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.s"
 .PHONY : help
 
 

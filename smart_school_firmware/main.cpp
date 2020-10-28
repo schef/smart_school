@@ -10,7 +10,9 @@ int main()
     EthernetWrapper::getInstance().init();
     EthernetWrapper::getInstance().connect();
     EthernetWrapper::getInstance().printInfo();
-    MqttWrapper::getInstance().init();
+    MqttWrapper::getInstance().init(EthernetWrapper::getInstance().getInterface(), "broker.emqx.io", 1883);
+    MqttWrapper::getInstance().connect("exrkeina", "2zUqpbUBMZGY", "MQTT_TEST");
+    MqttWrapper::getInstance().subscribe("test", onMessageReceived);
     logif("boot end\n");
     while (true) {
         led = !led;

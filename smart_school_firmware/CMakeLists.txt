@@ -33,10 +33,10 @@ PROJECT(smart_school_firmware C CXX ASM)
 
 SET(LD_SYS_LIBS "-Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys  -Wl,--end-group")
 
-SET(CMAKE_C_FLAGS "-g3 -std=gnu11 -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -include mbed_config.h")
-SET(CMAKE_CXX_FLAGS "-g3 -std=gnu++14 -fno-rtti -Wvla -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000  -include mbed_config.h")
+SET(CMAKE_C_FLAGS "-g3 -std=gnu11 -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -include mbed_config.h")
+SET(CMAKE_CXX_FLAGS "-g3 -std=gnu++14 -fno-rtti -Wvla -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000  -include mbed_config.h")
 SET(CMAKE_ASM_FLAGS "-g3 -x assembler-with-cpp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp  -include mbed_config.h")
-SET(CMAKE_CXX_LINK_FLAGS "-Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,__malloc_r -Wl,--wrap,__free_r -Wl,--wrap,__realloc_r -Wl,--wrap,__memalign_r -Wl,--wrap,__calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -Wl,--wrap,printf -Wl,--wrap,sprintf -Wl,--wrap,snprintf -Wl,--wrap,vprintf -Wl,--wrap,vsprintf -Wl,--wrap,vsnprintf -Wl,--wrap,fprintf -Wl,--wrap,vfprintf -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_BOOT_STACK_SIZE=1024 -DXIP_ENABLE=0 ")
+SET(CMAKE_CXX_LINK_FLAGS "-Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,__malloc_r -Wl,--wrap,__free_r -Wl,--wrap,__realloc_r -Wl,--wrap,__memalign_r -Wl,--wrap,__calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -Wl,--wrap,printf -Wl,--wrap,sprintf -Wl,--wrap,snprintf -Wl,--wrap,vprintf -Wl,--wrap,vsprintf -Wl,--wrap,vsnprintf -Wl,--wrap,fprintf -Wl,--wrap,vfprintf -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_BOOT_STACK_SIZE=1024 -DXIP_ENABLE=0 ")
 SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} ${LD_SYS_LIBS} -T ${CMAKE_BINARY_DIR}/smart_school_firmware_pp.link_script.ld")
 
 ADD_DEFINITIONS(
@@ -74,7 +74,7 @@ ADD_DEFINITIONS(
   -DDEVICE_WATCHDOG=1
   -DEXTRA_IDLE_STACK_REQUIRED
   -DMBEDTLS_CONFIG_HW_SUPPORT
-  -DMBED_BUILD_TIMESTAMP=1603730804.4912214
+  -DMBED_BUILD_TIMESTAMP=1603829399.2547462
   -DMBED_TICKLESS
   -DSTM32F756xx
   -DTARGET_CORTEX
@@ -105,6 +105,21 @@ ADD_DEFINITIONS(
   -D__MBED__=1
   )
 INCLUDE_DIRECTORIES(
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples
+  submodule/paho.mqtt.embedded-c/MQTTPacket
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino
+  submodule/paho.mqtt.embedded-c/MQTTClient/src
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src
+  submodule/paho.mqtt.embedded-c/MQTTClient-C
+  submodule/paho.mqtt.embedded-c/MQTTClient
+  submodule/paho.mqtt.embedded-c
+  submodule
   src
   mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TARGET_NUCLEO_F756ZG
   mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG
@@ -425,38 +440,12 @@ INCLUDE_DIRECTORIES(
   mbed-os/cmsis/CMSIS_5
   mbed-os/cmsis
   mbed-os
-  MQTT/MQTTPacket
-  MQTT/FP
-  MQTT
   /home/corona/git/smart_school/smart_school_firmware/mbed-os
   .
   )
 
 # executable smart_school_firmware
 ADD_EXECUTABLE(smart_school_firmware
-  MQTT/FP/FP.h
-  MQTT/MQTTAsync.h
-  MQTT/MQTTClient.h
-  MQTT/MQTTEthernet.h
-  MQTT/MQTTLogging.h
-  MQTT/MQTTPacket/MQTTConnect.h
-  MQTT/MQTTPacket/MQTTConnectClient.c
-  MQTT/MQTTPacket/MQTTConnectServer.c
-  MQTT/MQTTPacket/MQTTDeserializePublish.c
-  MQTT/MQTTPacket/MQTTPacket.c
-  MQTT/MQTTPacket/MQTTPacket.h
-  MQTT/MQTTPacket/MQTTPublish.h
-  MQTT/MQTTPacket/MQTTSerializePublish.c
-  MQTT/MQTTPacket/MQTTSubscribe.h
-  MQTT/MQTTPacket/MQTTSubscribeClient.c
-  MQTT/MQTTPacket/MQTTSubscribeServer.c
-  MQTT/MQTTPacket/MQTTUnsubscribe.h
-  MQTT/MQTTPacket/MQTTUnsubscribeClient.c
-  MQTT/MQTTPacket/MQTTUnsubscribeServer.c
-  MQTT/MQTTPacket/StackTrace.h
-  MQTT/MQTTSocket.h
-  MQTT/MQTTmbed.h
-  MQTTNetwork.h
   main.cpp
   mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h
   mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/os_tick.h
@@ -2648,13 +2637,68 @@ ADD_EXECUTABLE(smart_school_firmware
   src/ethernet_wrapper.hpp
   src/log.hpp
   src/mqtt_wrapper.hpp
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.h
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.h
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.h
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.h
+  submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c
+  submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp
+  submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp
+  submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/FP.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/MQTTClient.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/MQTTLogging.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/Countdown.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/IPStack.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/WifiIPStack.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTEthernet.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTSocket.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTmbed.h
+  submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnect.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPublish.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribe.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribe.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c
+  submodule/paho.mqtt.embedded-c/MQTTPacket/src/StackTrace.h
+  submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c
   )
 SET_TARGET_PROPERTIES(smart_school_firmware PROPERTIES ENABLE_EXPORTS 1)
 # add syslibs dependencies to create the correct linker order
 TARGET_LINK_LIBRARIES(smart_school_firmware -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys)
 
 add_custom_command(TARGET smart_school_firmware PRE_LINK
-                   COMMAND "arm-none-eabi-cpp" -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -Wl,--wrap,printf -Wl,--wrap,sprintf -Wl,--wrap,snprintf -Wl,--wrap,vprintf -Wl,--wrap,vsprintf -Wl,--wrap,vsnprintf -Wl,--wrap,fprintf -Wl,--wrap,vfprintf -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_BOOT_STACK_SIZE=1024 -DXIP_ENABLE=0 ./mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TOOLCHAIN_GCC_ARM/STM32F756xG.ld -o ${CMAKE_CURRENT_BINARY_DIR}/smart_school_firmware_pp.link_script.ld
+                   COMMAND "arm-none-eabi-cpp" -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -Wl,--wrap,printf -Wl,--wrap,sprintf -Wl,--wrap,snprintf -Wl,--wrap,vprintf -Wl,--wrap,vsprintf -Wl,--wrap,vsnprintf -Wl,--wrap,fprintf -Wl,--wrap,vfprintf -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_BOOT_STACK_SIZE=1024 -DXIP_ENABLE=0 ./mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TOOLCHAIN_GCC_ARM/STM32F756xG.ld -o ${CMAKE_CURRENT_BINARY_DIR}/smart_school_firmware_pp.link_script.ld
                    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
                    BYPRODUCTS "${CMAKE_CURRENT_BINARY_DIR}/smart_school_firmware_pp.link_script.ld"
                    )

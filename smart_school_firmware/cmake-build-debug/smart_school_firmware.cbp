@@ -88,7 +88,7 @@
 					<Add option="-DDEVICE_WATCHDOG=1"/>
 					<Add option="-DEXTRA_IDLE_STACK_REQUIRED"/>
 					<Add option="-DMBEDTLS_CONFIG_HW_SUPPORT"/>
-					<Add option="-DMBED_BUILD_TIMESTAMP=1603730804.4912214"/>
+					<Add option="-DMBED_BUILD_TIMESTAMP=1603829399.2547462"/>
 					<Add option="-DMBED_TICKLESS"/>
 					<Add option="-DSTM32F756xx"/>
 					<Add option="-DTARGET_CORTEX"/>
@@ -117,6 +117,21 @@
 					<Add option="-D__FPU_PRESENT=1"/>
 					<Add option="-D__MBED_CMSIS_RTOS_CM"/>
 					<Add option="-D__MBED__=1"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/src"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TARGET_NUCLEO_F756ZG"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG"/>
@@ -437,9 +452,6 @@
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/cmsis/CMSIS_5"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/cmsis"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os"/>
-					<Add directory="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket"/>
-					<Add directory="/home/corona/git/smart_school/smart_school_firmware/MQTT/FP"/>
-					<Add directory="/home/corona/git/smart_school/smart_school_firmware/MQTT"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/."/>
 					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0"/>
 					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0/arm-none-eabi"/>
@@ -496,7 +508,7 @@
 					<Add option="-DDEVICE_WATCHDOG=1"/>
 					<Add option="-DEXTRA_IDLE_STACK_REQUIRED"/>
 					<Add option="-DMBEDTLS_CONFIG_HW_SUPPORT"/>
-					<Add option="-DMBED_BUILD_TIMESTAMP=1603730804.4912214"/>
+					<Add option="-DMBED_BUILD_TIMESTAMP=1603829399.2547462"/>
 					<Add option="-DMBED_TICKLESS"/>
 					<Add option="-DSTM32F756xx"/>
 					<Add option="-DTARGET_CORTEX"/>
@@ -525,6 +537,21 @@
 					<Add option="-D__FPU_PRESENT=1"/>
 					<Add option="-D__MBED_CMSIS_RTOS_CM"/>
 					<Add option="-D__MBED__=1"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c"/>
+					<Add directory="/home/corona/git/smart_school/smart_school_firmware/submodule"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/src"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TARGET_NUCLEO_F756ZG"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG"/>
@@ -845,9 +872,6 @@
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/cmsis/CMSIS_5"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os/cmsis"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/mbed-os"/>
-					<Add directory="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket"/>
-					<Add directory="/home/corona/git/smart_school/smart_school_firmware/MQTT/FP"/>
-					<Add directory="/home/corona/git/smart_school/smart_school_firmware/MQTT"/>
 					<Add directory="/home/corona/git/smart_school/smart_school_firmware/."/>
 					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0"/>
 					<Add directory="/usr/lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/include/c++/10.2.0/arm-none-eabi"/>
@@ -864,75 +888,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/FP/FP.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTAsync.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTClient.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTEthernet.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTLogging.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTConnect.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTConnectClient.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTConnectServer.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTDeserializePublish.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTPacket.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTPacket.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTPublish.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTSerializePublish.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTSubscribe.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTSubscribeClient.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTSubscribeServer.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTUnsubscribe.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTUnsubscribeClient.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/MQTTUnsubscribeServer.c">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTPacket/StackTrace.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTSocket.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTT/MQTTmbed.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
-		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/MQTTNetwork.h">
-			<Option target="smart_school_firmware"/>
-		</Unit>
 		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/main.cpp">
 			<Option target="smart_school_firmware"/>
 		</Unit>
@@ -7501,6 +7456,171 @@
 			<Option target="smart_school_firmware"/>
 		</Unit>
 		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/src/mqtt_wrapper.hpp">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/FP.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/MQTTClient.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/MQTTLogging.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/Countdown.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/IPStack.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/WifiIPStack.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTEthernet.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTSocket.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTmbed.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnect.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPublish.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribe.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribe.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/StackTrace.h">
+			<Option target="smart_school_firmware"/>
+		</Unit>
+		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c">
 			<Option target="smart_school_firmware"/>
 		</Unit>
 		<Unit filename="/home/corona/git/smart_school/smart_school_firmware/CMakeLists.txt">
