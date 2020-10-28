@@ -309,4 +309,10 @@ BUILD/NUCLEO_F756ZG/GCC_ARM/main.o: main.cpp \
  mbed-os/connectivity/netsocket/include/netsocket/OnboardNetworkStack.h \
  mbed-os/connectivity/netsocket/include/netsocket/L3IP.h \
  mbed-os/connectivity/netsocket/include/netsocket/PPP.h \
- src/mqtt_wrapper.hpp
+ src/mqtt_wrapper.hpp src/MQTTPacket/MQTTPacket.h \
+ src/MQTTPacket/MQTTConnect.h src/MQTTPacket/MQTTPublish.h \
+ src/MQTTPacket/MQTTSubscribe.h src/MQTTPacket/MQTTUnsubscribe.h \
+ src/MQTTPacket/MQTTFormat.h src/MQTTPacket/StackTrace.h \
+ src/MQTTPacket/MQTTPacket.h src/MQTTClient/MQTTClient.h \
+ src/MQTTClient/FP.h src/MQTTClient/MQTTLogging.h \
+ src/MQTTClient/MQTTmbed.h

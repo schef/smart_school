@@ -74,7 +74,7 @@ ADD_DEFINITIONS(
   -DDEVICE_WATCHDOG=1
   -DEXTRA_IDLE_STACK_REQUIRED
   -DMBEDTLS_CONFIG_HW_SUPPORT
-  -DMBED_BUILD_TIMESTAMP=1603829399.2547462
+  -DMBED_BUILD_TIMESTAMP=1603865105.44752
   -DMBED_TICKLESS
   -DSTM32F756xx
   -DTARGET_CORTEX
@@ -105,21 +105,8 @@ ADD_DEFINITIONS(
   -D__MBED__=1
   )
 INCLUDE_DIRECTORIES(
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples
-  submodule/paho.mqtt.embedded-c/MQTTPacket
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino
-  submodule/paho.mqtt.embedded-c/MQTTClient/src
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src
-  submodule/paho.mqtt.embedded-c/MQTTClient-C
-  submodule/paho.mqtt.embedded-c/MQTTClient
-  submodule/paho.mqtt.embedded-c
-  submodule
+  src/MQTTPacket
+  src/MQTTClient
   src
   mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TARGET_NUCLEO_F756ZG
   mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG
@@ -2634,64 +2621,32 @@ ADD_EXECUTABLE(smart_school_firmware
   mbed-os/targets/TARGET_STM/watchdog_api.c
   mbed_config.h
   mbed_config.h
+  src/MQTTClient/FP.h
+  src/MQTTClient/MQTTClient.h
+  src/MQTTClient/MQTTEthernet.h
+  src/MQTTClient/MQTTLogging.h
+  src/MQTTClient/MQTTSocket.h
+  src/MQTTClient/MQTTmbed.h
+  src/MQTTPacket/MQTTConnect.h
+  src/MQTTPacket/MQTTConnectClient.c
+  src/MQTTPacket/MQTTConnectServer.c
+  src/MQTTPacket/MQTTDeserializePublish.c
+  src/MQTTPacket/MQTTFormat.c
+  src/MQTTPacket/MQTTFormat.h
+  src/MQTTPacket/MQTTPacket.c
+  src/MQTTPacket/MQTTPacket.h
+  src/MQTTPacket/MQTTPublish.h
+  src/MQTTPacket/MQTTSerializePublish.c
+  src/MQTTPacket/MQTTSubscribe.h
+  src/MQTTPacket/MQTTSubscribeClient.c
+  src/MQTTPacket/MQTTSubscribeServer.c
+  src/MQTTPacket/MQTTUnsubscribe.h
+  src/MQTTPacket/MQTTUnsubscribeClient.c
+  src/MQTTPacket/MQTTUnsubscribeServer.c
+  src/MQTTPacket/StackTrace.h
   src/ethernet_wrapper.hpp
   src/log.hpp
   src/mqtt_wrapper.hpp
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.h
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.h
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.h
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.h
-  submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c
-  submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp
-  submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp
-  submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/FP.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/MQTTClient.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/MQTTLogging.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/Countdown.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/IPStack.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/arduino/WifiIPStack.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTEthernet.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTSocket.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/src/mbed/MQTTmbed.h
-  submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnect.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPublish.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribe.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribe.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c
-  submodule/paho.mqtt.embedded-c/MQTTPacket/src/StackTrace.h
-  submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c
   )
 SET_TARGET_PROPERTIES(smart_school_firmware PROPERTIES ENABLE_EXPORTS 1)
 # add syslibs dependencies to create the correct linker order

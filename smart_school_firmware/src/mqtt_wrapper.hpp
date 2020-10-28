@@ -8,6 +8,9 @@
 #include "MQTTClient.h"
 #include "MQTTmbed.h"
 
+#define MBED_CONF_MQTT_WRAPPER_MAX_PACKET_SIZE 1024
+#define MBED_CONF_MQTT_WRAPPER_MAX_CONNECTIONS 8
+
 typedef void (*message_callback_t)(MQTT::MessageData &);
 
 class MqttNetwork {

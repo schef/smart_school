@@ -12143,434 +12143,135 @@ CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/watchdog_api.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/watchdog_api.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/mbed-os/targets/TARGET_STM/watchdog_api.c -o CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/watchdog_api.c.s
 
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_931) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_932) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_933) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_934) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_935) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_936) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_937) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_938) "Building CXX object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_939) "Building CXX object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_940) "Building CXX object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_941) "Building CXX object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj: ../submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_942) "Building CXX object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_943) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_944) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_945) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_946) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_947) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_948) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_949) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_950) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_951) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_952) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_953) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_954) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_955) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_956) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_957) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_958) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_959) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_960) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_961) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_962) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.s
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj: ../submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_963) "Building C object CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c > CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.i
-
-CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c -o CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.s
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.obj: ../src/MQTTPacket/MQTTConnectClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_931) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTConnectClient.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTConnectClient.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTConnectClient.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.obj: ../src/MQTTPacket/MQTTConnectServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_932) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTConnectServer.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTConnectServer.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTConnectServer.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.obj: ../src/MQTTPacket/MQTTDeserializePublish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_933) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTDeserializePublish.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTDeserializePublish.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTDeserializePublish.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.obj: ../src/MQTTPacket/MQTTFormat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_934) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTFormat.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTFormat.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTFormat.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.obj: ../src/MQTTPacket/MQTTPacket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_935) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTPacket.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTPacket.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTPacket.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.obj: ../src/MQTTPacket/MQTTSerializePublish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_936) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSerializePublish.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSerializePublish.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSerializePublish.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.obj: ../src/MQTTPacket/MQTTSubscribeClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_937) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSubscribeClient.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSubscribeClient.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSubscribeClient.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.obj: ../src/MQTTPacket/MQTTSubscribeServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_938) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSubscribeServer.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSubscribeServer.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTSubscribeServer.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.obj: ../src/MQTTPacket/MQTTUnsubscribeClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_939) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTUnsubscribeClient.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTUnsubscribeClient.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTUnsubscribeClient.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.s
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.obj: CMakeFiles/smart_school_firmware.dir/flags.make
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.obj: ../src/MQTTPacket/MQTTUnsubscribeServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_940) "Building C object CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.obj   -c /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTUnsubscribeServer.c
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTUnsubscribeServer.c > CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.i
+
+CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corona/git/smart_school/smart_school_firmware/src/MQTTPacket/MQTTUnsubscribeServer.c -o CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.s
 
 # Object files for target smart_school_firmware
 smart_school_firmware_OBJECTS = \
@@ -13504,39 +13205,16 @@ smart_school_firmware_OBJECTS = \
 "CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/trng_api.c.obj" \
 "CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/us_ticker.c.obj" \
 "CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/watchdog_api.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj" \
-"CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj"
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.obj" \
+"CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.obj"
 
 # External object files for target smart_school_firmware
 smart_school_firmware_EXTERNAL_OBJECTS =
@@ -14471,44 +14149,21 @@ smart_school_firmware: CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARG
 smart_school_firmware: CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/trng_api.c.obj
 smart_school_firmware: CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/us_ticker.c.obj
 smart_school_firmware: CMakeFiles/smart_school_firmware.dir/mbed-os/targets/TARGET_STM/watchdog_api.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/FreeRTOS/MQTTEcho.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/samples/linux/stdoutsub.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/FreeRTOS/MQTTFreeRTOS.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/MQTTClient.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/cc3200/MQTTCC3200.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/src/linux/MQTTLinux.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient-C/test/test1.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/hello.cpp.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/main.cpp.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/samples/linux/stdoutsub.cpp.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/src/linux/linux.cpp.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTClient/test/test1.cpp.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/ping_nb.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/pub0sub1_nb.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/baremetalserial/transport.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/null.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/ping_nb.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/pub0sub1_nb.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/qos0pub.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/samples/transport.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c.obj
-smart_school_firmware: CMakeFiles/smart_school_firmware.dir/submodule/paho.mqtt.embedded-c/MQTTPacket/test/test1.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectClient.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTConnectServer.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTDeserializePublish.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTFormat.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTPacket.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSerializePublish.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeClient.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTSubscribeServer.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeClient.c.obj
+smart_school_firmware: CMakeFiles/smart_school_firmware.dir/src/MQTTPacket/MQTTUnsubscribeServer.c.obj
 smart_school_firmware: CMakeFiles/smart_school_firmware.dir/build.make
 smart_school_firmware: CMakeFiles/smart_school_firmware.dir/objects1.rsp
 smart_school_firmware: CMakeFiles/smart_school_firmware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_964) "Linking CXX executable smart_school_firmware"
-	cd /home/corona/git/smart_school/smart_school_firmware && arm-none-eabi-cpp -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -Wl,--wrap,printf -Wl,--wrap,sprintf -Wl,--wrap,snprintf -Wl,--wrap,vprintf -Wl,--wrap,vsprintf -Wl,--wrap,vsnprintf -Wl,--wrap,fprintf -Wl,--wrap,vfprintf -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_BOOT_STACK_SIZE=1024 -DXIP_ENABLE=0 ./mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TOOLCHAIN_GCC_ARM/STM32F756xG.ld -o /home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/smart_school_firmware_pp.link_script.ld
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_941) "Linking CXX executable smart_school_firmware"
+	cd /home/corona/git/smart_school/smart_school_firmware && arm-none-eabi-cpp -E -P -Wl,--gc-sections -Wl,--wrap,main -Wl,--wrap,_malloc_r -Wl,--wrap,_free_r -Wl,--wrap,_realloc_r -Wl,--wrap,_memalign_r -Wl,--wrap,_calloc_r -Wl,--wrap,exit -Wl,--wrap,atexit -Wl,-n -Wl,--wrap,printf -Wl,--wrap,sprintf -Wl,--wrap,snprintf -Wl,--wrap,vprintf -Wl,--wrap,vsprintf -Wl,--wrap,vsnprintf -Wl,--wrap,fprintf -Wl,--wrap,vfprintf -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -MMD -fomit-frame-pointer -Og -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_MINIMAL_PRINTF -mcpu=cortex-m7 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -DMBED_ROM_START=0x8000000 -DMBED_ROM_SIZE=0x100000 -DMBED_ROM1_START=0x200000 -DMBED_ROM1_SIZE=0x100000 -DMBED_RAM1_START=0x20000000 -DMBED_RAM1_SIZE=0x10000 -DMBED_RAM_START=0x20010000 -DMBED_RAM_SIZE=0x40000 -DMBED_BOOT_STACK_SIZE=1024 -DXIP_ENABLE=0 ./mbed-os/targets/TARGET_STM/TARGET_STM32F7/TARGET_STM32F756xG/TOOLCHAIN_GCC_ARM/STM32F756xG.ld -o /home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/smart_school_firmware_pp.link_script.ld
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smart_school_firmware.dir/link.txt --verbose=$(VERBOSE)
 	arm-none-eabi-objcopy -O ihex /home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/smart_school_firmware /home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/smart_school_firmware.hex
 	/opt/clion/bin/cmake/linux/bin/cmake -E echo --\ built:\ /home/corona/git/smart_school/smart_school_firmware/cmake-build-debug/smart_school_firmware.hex
