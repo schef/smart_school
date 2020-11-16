@@ -1,0 +1,21 @@
+HW definitions:
+ - NUCLEO-F746ZG
+	- ima POE?
+ - shield/patch board za (F746ZG)
+ 	- konektor za 5v/3a napajanje
+	- konektor za sensor board
+	- konektor za button board
+	- konektor za reley board
+	- levelshifteri za releyboard?
+	- impulse counter (spoji se na brojilo)
+ - sensor board
+ 	- konektor za patch board
+	- atmospheric sensor (bme680) (presitni?)
+	- light sensor (bh1750)
+	- co2 sensor (mh-z19)
+	- move sensor (rwcl0516)
+ - button board
+ 	- konektor za patch board
+ 	- 6 tipkala
+	- 6 ledica
+ - reley board
